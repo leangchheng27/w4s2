@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.main {
+    height: 100vh;
+    background-color: rgb(6, 48, 85);
+    display: flex;
+    gap: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.main .left-section{
+    background-color: aquamarine;
+    flex: 1;
+    height: 100vh;
+}
+
+.main .right-section{
+    background-color: bisque;
+    width: 10em;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.main .right-section .item {
+    color: blue;
+    width: 8em;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(63, 172, 219);
+    padding: 0em 1em;
+    
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+
+
